@@ -5,14 +5,14 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">Claudia Ventura Reyes</p><br><p class="textos-alert-inicio-T3">Tiene el honor de invitar a usted y a su apreciable familia al 4° Aniversario de su hija:</p><br><p class="textos-alert-inicio-T2">Camila Alejandra Ensástigue Ventura</p></div>',
+	html:'<p class="textos-alert-inicio">Judith Flores Rivera <br><br> <p class="textos-alert-inicio-T3">Tengo el honor de invitar a usted y a su apreciable familia al Bautizo y primer aniversario de mi hijo:</p><br><p class="textos-alert-inicio-T2">Tadeo Kiran Flores Rivera</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
-	confirmButtonColor: "#cdec06",
+	confirmButtonColor: "#d7a435",
 	footer:'Te Esperamos, No Faltes!',
 	width:'100%',
 	allowOutsideClick: false,
-	// background: '#fff url(img/fondo2.jpg)',
+	background: '#fff url(img/indx.jpg)',
 	
 	// background:'rgba(0,0,123,0.4)'
 	// imageUrl: 'https://unsplash.it/400/200',
@@ -25,8 +25,7 @@ Swal.fire({
 		audio.play();
 		$('.volumen').attr("src","img/no-sound.png");
 		$('div').removeClass('visible')
-		
-		$( "#onload" ).fadeOut(2000);
+		$( "#onload" ).fadeOut(5000);
 		$("body").removeClass("hidden");
 
 
@@ -36,14 +35,24 @@ Swal.fire({
 
 
 
+$('#ceremonia').click(function () {
+Swal.fire({
+	title:'Ubicación de la Ceremonía ',
+	//text: '',
+	html:'<p>Casa de retiros Agua Viva, Dominicos<br>Cuándo: Sábado 19 de Diciembre<br>Dirección: 562X+65 Santiago Cuauhtenco, Estado de México.</p><div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.02043005598!2d-98.7545848247926!3d19.150582982069686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce3ca473e99cbb%3A0x1b5e5e3be1fbfa4a!2sCasa%20de%20retiros%20Agua%20Viva%2C%20Dominicos!5e0!3m2!1ses-419!2smx!4v1794283014821!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>',
+	//icon:'success'
+	confirmButtonText:'Cerrar',
+	//footer:'Parroquia de Dulce Nombre de Jesus ',
 
+});
+});
 
 $('#recepcion').click(function () {
 	Swal.fire({
 		title:'Ubicación de la Recepción ',
 		//text: '',
 	
-		html:'<p>Calle el Arenal S/N Ayapango Estado de México</p><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1371.7995771926333!2d-98.7939594180679!3d19.12615633045758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scalle%20el%20arenal%20ayapango%20edomx!5e0!3m2!1ses-419!2smx!4v1746141805487!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
+		html:'<p>Auditorio Bienes Comunales</p><p>Dirección: Reforma & Florida, Manzana 004, 56935 Santa Isabel Chalma, Méx.</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.2207273334265!2d-98.76378142622444!3d19.156602050362523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce3d005a1b63cf%3A0x46ef7f01cc1ae460!2sBIENES%20COMUNALES%20SANTA%20ISABEL%20CHALMA!5e0!3m2!1ses-419!2smx!4v1794283406123!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>',
 		//icon:'success'
 		confirmButtonText:'Cerrar',
 		//footer:'Parroquia de Dulce Nombre de Jesus ',
