@@ -1,6 +1,6 @@
 
 
-let audio = new Audio('musica.mp3');
+let audio = new Audio('cancion.mp3');
 var musica=false;
 
 
