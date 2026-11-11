@@ -12,7 +12,7 @@ Swal.fire({
 	footer:'Te Esperamos, No Faltes!',
 	width:'100%',
 	allowOutsideClick: false,
-	background: '#fff url(img/indx.jpg)',
+	background: '#fff url(img/fondo4.png)',
 	
 	// background:'rgba(0,0,123,0.4)'
 	// imageUrl: 'https://unsplash.it/400/200',
